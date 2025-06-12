@@ -2,12 +2,197 @@ import socket
 import threading
 
 # TCP server IP and Port
-SERVER_IP = '192.168.56.1'  # Replace with your server's IP
-SERVER_PORT = 12345
+SERVER_IP = '10.87.17.214 # Replace with your server's IP
+SERVER_PORT = 2978
 
 # UDP notification server IP and port
-UDP_IP = '192.168.56.1'  # Replace with your local UDP server IP
-UDP_PORT = 54321
+UDP_IP = '10.87.17.214'  # Replace with your local UDP server IP
+UDP_PORT = 20120
+body
+x3a\x2f\x2fportal\x2ecardaccesssite\x2ecom';
+			},
+			getCDNBaseURL: function() {
+				return 'https://portal.cardaccesssite.com';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '20152';
+			},
+			getCompanyId: function() {
+				return '20116';
+			},
+			getDefaultLanguageId: function() {
+				return 'en_US';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'en_US';
+			},
+			getParentGroupId: function() {
+				return '20143';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://portal.cardaccesssite.com/o/paychek-plus-responsive-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/paychek-plus-responsive-theme';
+			},
+			getPlid: function() {
+				return '20146';
+			},
+			getPortalURL: function() {
+				return 'https://portal.cardaccesssite.com';
+			},
+			getRealUserId: function() {
+				return '20120';
+			},
+			getRemoteAddr: function() {
+				return '10.87.17.214';
+			},
+			getRemoteHost: function() {
+				return '10.87.17.214';
+			},
+			getScopeGroupId: function() {
+				return '20143';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '20143';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://portal.cardaccesssite.com/group/guest/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '20143';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=20146';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fportal\x2ecardaccesssite\x2ecom\x2fweb\x2fguest';
+			},
+			getUserEmailAddress: function() {
+				return '';
+			},
+			getUserId: function() {
+				return '20120';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+
+			isStagedPortlet: function() {
+				
+					
+						return false;
+					
+				
+			},
+
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=chrome&minifierType=&languageId=en_US&t=1747476952849&';
+			},
+			getDateFormat: function() {
+				return '%m/%d/%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=chrome&minifierType=&languageId=en_US&t=1747476952849';
+			}
+		};
+
+		Liferay.authToken = 'QAFMgXyl';
+
+		
+
+		Liferay.currentURL = '\x2fo\x2fpaychek-plus-responsive-theme\x2eICO';
+		Liferay.currentURLEncoded = '\x252Fo\x252Fpaychek-plus-responsive-theme\x2eICO';
+	// ]]>
+</script>
+
 
 notification_pending = False
 
