@@ -2,7 +2,7 @@ import socket
 import threading
 
 # TCP server IP and Port
-SERVER_IP = '10.87.17.214 # Replace with your server's IP
+SERVER_IP = '10.87.17.169 # Replace with your server's IP
 SERVER_PORT = 2978
 
 # UDP notification server IP and port
